@@ -1,5 +1,6 @@
 interface QueryParams {
     texto?: string;
+    hash?:string;
 } 
 interface HashRequest extends Request {
     query: QueryParams;
